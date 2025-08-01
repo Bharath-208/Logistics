@@ -13,7 +13,7 @@ import nltk
 
 
 # Download NLTK data files (run once)
- nltk.download('punkt')
+nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load data
