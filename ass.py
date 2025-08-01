@@ -11,9 +11,10 @@ from sklearn.metrics import classification_report, accuracy_score
 from textblob import TextBlob
 import nltk
 
+
 # Download NLTK data files (run once)
-# nltk.download('punkt')
-# nltk.download('stopwords')
+ nltk.download('punkt')
+nltk.download('stopwords')
 
 # Load data
 data = pd.read_csv(r"C:\Users\PRJAWAL\OneDrive\Desktop\Excelr\Assignment-19\Naive Bayes and Text Mining\blogs_categories.csv")
