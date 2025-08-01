@@ -17,7 +17,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load data
-data = pd.read_csv(r"C:\Users\PRJAWAL\OneDrive\Desktop\Excelr\Assignment-19\Naive Bayes and Text Mining\blogs_categories.csv")
+data = pd.read_csv(r"blogs_categories.csv")
 
 # Initial data checks
 print(data.info())
