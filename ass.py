@@ -17,7 +17,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load data
-data = pd.read_csv(r"blogs_categories.csv")
+data = pd.read_csv(r"sample.csv.xlsx")
 
 # Initial data checks
 print(data.info())
@@ -74,3 +74,4 @@ print(data['sentiment'].value_counts())
 
 # Evaluation
 print(classification_report(y_test, y_pred))
+
