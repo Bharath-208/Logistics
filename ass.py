@@ -17,7 +17,7 @@ nltk.download('punkt')
 nltk.download('stopwords')
 
 # Load data
-data = pd.read_excel("sample.csv.xlsx")
+data = pd.read_excel("sam2.xlsx")
 
 # Initial data checks
 print(data.info())
@@ -74,5 +74,6 @@ print(data['sentiment'].value_counts())
 
 # Evaluation
 print(classification_report(y_test, y_pred))
+
 
 
