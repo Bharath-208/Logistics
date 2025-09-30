@@ -1,7 +1,4 @@
-pandas
-matplotlib
-seaborn
-nltk
 scikit-learn
-textblob
-openpyxl
+pandas
+numpy
+joblib
